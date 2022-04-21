@@ -6,10 +6,17 @@ body {
 }
 /* Header*/
 .site-header{
+display: flex;
+align-items: center;
+justify-content: space-between;
 background-color: #fff;
 }
-
+.site-header-action{
+display:flex;
+align-items:center;
+}
 .sitenav-list{
+display: flex;
 list-style: none;
 }
 
@@ -31,6 +38,9 @@ color: #000;
 }
 /* Hero */
 .hero{
+display: flex;
+align-items: center;
+justify-content: space-between;
 width: 1440px;
 background-color: #252420;
 color: #fff;
@@ -47,7 +57,7 @@ width: 390px;
   }
 
 
-  .orange-line{
+.orange-line{
     width: 80px;
     height: 3px;
     background-color: #ff7500;
@@ -71,6 +81,7 @@ letter-spacing: 0.5;
 font-family: "Roboto condensed","Roboto","Arial", sans-serif;
 }
 
+
 .feature-icon-wrapper{
 width: 100px;
 height: 100px;
@@ -81,6 +92,9 @@ background-color:rgba(255, 117, 5, 0.  2);
   line-height: 1.2;
   font-size: 24px;
   font-family: "Roboto condensed","Roboto","Arial", sans-serif;
+  }
+  .features-list{
+    display: flex;
   }
   /*Promo*/
 
