@@ -14,6 +14,9 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 background-color: #fff;
+padding-top: 16px;
+padding-bottom: 16px;
+border-top: 5px solid #FF7500;
 }
 .logo-link{
 transition: opacity 0.4s ease;
@@ -31,6 +34,7 @@ align-items:center;
 .sitenav-list{
 display: flex;
 list-style: none;
+padding: 0;
 }
 
 .sitenav-link{
@@ -51,6 +55,10 @@ opacity 0.4s ease;
   opacity: 0.6;}
 /* Main link*/
 .main-link {
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
   font-size: 13px;
   line-height: 1;
   color: #fff;
@@ -71,6 +79,8 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 width: 1440px;
+padding-top: 80px;
+padding-bottom: 80px;
 background-color: #252420;
 color: #fff;
 }
@@ -89,17 +99,21 @@ width: 390px;
 .orange-line{
     width: 80px;
     height: 3px;
+    border: none;
     background-color: #ff7500;
   }
 
 .hero-img{
+border-radius: 8px;
   width: 510px;
   height: 510px;
 }
 
 /*Features*/
-.feature{
-width: 340px;}
+.features{
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
 
 .features-heading{
 width: 440px;
@@ -112,9 +126,13 @@ font-family: "Roboto condensed","Roboto","Arial", sans-serif;
 
 
 .feature-icon-wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
 width: 100px;
 height: 100px;
-background-color:rgba(255, 117, 5, 0.  2);
+background-color:rgba(255, 117, 0, 0.2);
 }
 
 .feature-title{
@@ -123,9 +141,10 @@ background-color:rgba(255, 117, 5, 0.  2);
   font-family: "Roboto condensed","Roboto","Arial", sans-serif;
   }
   .features-list{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
   }
   /*Promo*/
 
@@ -133,6 +152,7 @@ background-color:rgba(255, 117, 5, 0.  2);
 display: flex;
 justify-content: space-between;
 align-items: center;
+border-radius: 12px;
 background-color: #252420;
 color: #fff;
 }
@@ -151,6 +171,7 @@ font-family: "Roboto condensed","Roboto","Arial", sans-serif;
 }
 
 .promo-img{
+  border-radius: 12px;
   width: 440px;
   height: 440px;
   object-fit: cover;
@@ -158,6 +179,8 @@ font-family: "Roboto condensed","Roboto","Arial", sans-serif;
 
 /*Site footer*/
 .site-footer{
+padding-top: 56px;
+padding-bottom: 56px;
 background-color: #f8f8f8;
 }
 .site-footer-top {
@@ -166,6 +189,7 @@ background-color: #f8f8f8;
   justify-content: space-between;
 }
 .site-footer-socials{
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -185,11 +209,13 @@ opacity: 0.6;
   display: flex;
 }
 .site-footer ul{
+  padding: 0;
   list-style: none;
 }
 .site-footer-divider{
   height: 2px;
-  background-color: rgba (37, 36, 32, 0.5);
+  border: 0;
+  background-color: rgba(37, 36, 32, 0.5);
 }
 .site-footer-links{
   width: 224px;
